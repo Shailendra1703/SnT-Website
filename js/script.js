@@ -2,7 +2,7 @@ var tl = gsap.timeline();
 
 tl.from(".hero h1", { duration: 0.7, x: -300, opacity: 0 });
 
-let data = ["TECH", "ACTIVITIES", "KNOWLEDGE", "FACTS"];
+let data = ["TECH", "EVENTS", "FACTS"];
 let len = 0;
 let speed = 150;
 for (let i = 0; i < data.length; ++i) len += 2 * data[i].length;
